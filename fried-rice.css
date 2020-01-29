@@ -1,0 +1,59 @@
+header nav ul{
+    display: flex;
+    list-style: none;
+    height: 50px;
+    line-height:50px;
+    font-size: 25px;
+    padding-left:0;
+    font-style: oblique;
+    margin:0;
+    
+}
+body{
+    margin:0;
+}
+html{
+    background-color: aliceblue;
+}
+header{
+    background-color: antiquewhite;
+}
+footer p{
+    background-color: antiquewhite;
+    margin-top:5px;
+    margin-bottom: 0;
+}
+
+header nav ul li{
+    margin: 0 10px;
+}
+a{
+    color:blueviolet;
+}
+img{margin-left:25%;
+    width:50%;
+    height:40%;
+}
+h1{ 
+    margin-top:5px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 50px;
+}
+#two{
+    display: flex;
+    flex-flow: row wrap;
+}
+#orts{
+    background-color:antiquewhite;
+    margin-left:0;
+    margin-right: 5px;
+    width: 300px;
+}
+#zurag{
+    justify-content: center;
+    background-color: beige;
+    margin-left:5px;
+    margin-right: 0;
+    width:75%;
+}
